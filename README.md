@@ -1,6 +1,6 @@
+ 
+[![Version](https://poser.pugx.org/designbycode/quick-socialite/version)](//packagist.org/packages/designbycode/quick-socialite) [![Total Downloads](https://poser.pugx.org/designbycode/quick-socialite/downloads)](//packagist.org/packages/designbycode/quick-socialite) [![composer.lock](https://poser.pugx.org/designbycode/quick-socialite/composerlock)](//packagist.org/packages/designbycode/quick-socialite) [![License](https://poser.pugx.org/designbycode/quick-socialite/license)](//packagist.org/packages/designbycode/quick-socialite)
 
-
-[![Latest Stable Version](https://poser.pugx.org/designbycode/quick-socialite/v)](//packagist.org/packages/designbycode/quick-socialite) [![Total Downloads](https://poser.pugx.org/designbycode/quick-socialite/downloads)](//packagist.org/packages/designbycode/quick-socialite) [![Version](https://poser.pugx.org/designbycode/quick-socialite/version)](//packagist.org/packages/designbycode/quick-socialite) [![License](https://poser.pugx.org/designbycode/quick-socialite/license)](//packagist.org/packages/designbycode/quick-socialite) 
 
 # Quick Socialite 
 
