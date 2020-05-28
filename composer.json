@@ -1,0 +1,34 @@
+{
+    "name": "designbycode/quick-socialite",
+    "description": "Wrapper for laravel socialite",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DesignByCode",
+            "email": "claude@designbycode.co.za"
+        }
+    ],
+    "require": {
+        "laravel/socialite": "^4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignByCode\\QuickSocialite\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DesignByCode\\QuickSocialite\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DesignByCode\\QuickSocialite\\Providers\\QuickSocialiteServiceProvider"
+            ]
+        }
+    }
+}
