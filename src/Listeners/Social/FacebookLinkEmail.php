@@ -2,7 +2,6 @@
 
 namespace DesignByCode\QuickSocialite\Listeners\Social;
 
-use App\User;
 use DesignByCode\QuickSocialite\Events\Social\FacebookAccountWasCreated;
 use DesignByCode\QuickSocialite\Mail\Social\FacebookWelcomeEmail;
 use Illuminate\Support\Facades\Mail;

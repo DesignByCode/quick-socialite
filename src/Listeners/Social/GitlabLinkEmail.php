@@ -2,7 +2,7 @@
 
 namespace DesignByCode\QuickSocialite\Listeners\Social;
 
-use App\User;
+
 use DesignByCode\QuickSocialite\Events\Social\GitlabAccountWasCreated;
 use DesignByCode\QuickSocialite\Mail\Social\GitlabWelcomeEmail;
 use Illuminate\Support\Facades\Mail;

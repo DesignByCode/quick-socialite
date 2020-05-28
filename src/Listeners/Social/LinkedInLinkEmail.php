@@ -8,7 +8,7 @@ use DesignByCode\QuickSocialite\Mail\Social\TwitterWelcomeEmail;
 use Illuminate\Support\Facades\Mail;
 
 
-class TwitterLinkEmail
+class LinkedInLinkEmail
 {
 
     /**

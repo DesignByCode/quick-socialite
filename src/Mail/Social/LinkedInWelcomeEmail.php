@@ -8,7 +8,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class GitlabWelcomeEmail extends Mailable implements ShouldQueue
+class LinkedInWelcomeEmail extends Mailable implements ShouldQueue
 {
     use Queueable, SerializesModels;
     /**
@@ -17,7 +17,7 @@ class GitlabWelcomeEmail extends Mailable implements ShouldQueue
     public $user;
 
     /**
-     * GitlabWelcomeEmail constructor.
+     * BitbucketWelcomeEmail constructor.
      * @param User $user
      */
     public function __construct(User $user)
@@ -33,6 +33,6 @@ class GitlabWelcomeEmail extends Mailable implements ShouldQueue
      */
     public function build()
     {
-        return $this->markdown('quick-socialite::emails.social.google.welcome');
+        return $this->markdown('quick-socialite::emails.social.linkedin.welcome');
     }
 }

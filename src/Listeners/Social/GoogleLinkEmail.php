@@ -2,7 +2,6 @@
 
 namespace DesignByCode\QuickSocialite\Listeners\Social;
 
-use App\User;
 use DesignByCode\QuickSocialite\Events\Social\GoogleAccountWasCreated;
 use DesignByCode\QuickSocialite\Mail\Social\GoogleWelcomeEmail;
 use Illuminate\Support\Facades\Mail;

@@ -2,7 +2,6 @@
 
 namespace DesignByCode\QuickSocialite\Listeners\Social;
 
-use App\User;
 use DesignByCode\QuickSocialite\Events\Social\GithubAccountWasCreated;
 use DesignByCode\QuickSocialite\Mail\Social\GithubWelcomeEmail;
 use Illuminate\Support\Facades\Mail;
