@@ -2,44 +2,59 @@
 
 return [
 
+    /*
+     * Set the services you want to use to true or false.
+     * Middleware will prevent the service to be accessed if 'NOT' true
+     */
 
     'services' => [
 
         'bitbucket' => [
-            'name' => 'Bitbucket'
+            'name' => 'Bitbucket',
+            'use' => false
         ],
 
 
         'facebook' => [
-            'name' => 'Facebook'
+            'name' => 'Facebook',
+            'use' => false
         ],
 
 
         'github' => [
-            'name' => 'Github'
+            'name' => 'Github',
+            'use' => false
         ],
 
 
         'gitlab' => [
-            'name' => 'Gitlab'
+            'name' => 'Gitlab',
+            'use' => false
         ],
 
 
         'google' => [
-            'name' => 'Google'
+            'name' => 'Google',
+            'use' => false
         ],
 
 
         'linkedin' => [
-            'name' => 'LinkedIn'
+            'name' => 'LinkedIn',
+            'use' => false
         ],
 
 
         'twitter' => [
-            'name' => 'Twitter'
+            'name' => 'Twitter',
+            'use' => false
         ],
 
     ],
+
+    /*
+     * Custom event can be triggered event section.
+     */
 
     'events' => [
 
