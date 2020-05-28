@@ -1,5 +1,6 @@
 
-[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/v)](//packagist.org/packages/phpunit/phpunit) [![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](//packagist.org/packages/phpunit/phpunit) [![Latest Unstable Version](https://poser.pugx.org/phpunit/phpunit/v/unstable)](//packagist.org/packages/phpunit/phpunit) [![License](https://poser.pugx.org/phpunit/phpunit/license)](//packagist.org/packages/phpunit/phpunit)
+
+[![Latest Stable Version](https://poser.pugx.org/designbycode/quick-socialite/v)](//packagist.org/packages/designbycode/quick-socialite) [![Total Downloads](https://poser.pugx.org/designbycode/quick-socialite/downloads)](//packagist.org/packages/designbycode/quick-socialite) [![Version](https://poser.pugx.org/designbycode/quick-socialite/version)](//packagist.org/packages/designbycode/quick-socialite) [![License](https://poser.pugx.org/designbycode/quick-socialite/license)](//packagist.org/packages/designbycode/quick-socialite) 
 
 # Quick Socialite 
 
