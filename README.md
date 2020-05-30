@@ -26,7 +26,7 @@ php artisan vendor:publish --provider="DesignByCode\QuickSocialite\Providers\Qui
 
 ### Config Settings 
 
-Now that the config file are published, open the social.php file and mark the services you want to **use** to true
+Now that the config file are published, open the ```social.php``` file and mark the services you want to **use** to true
 
 ```php
 
@@ -49,6 +49,23 @@ Now that the config file are published, open the social.php file and mark the se
             'use' => true
         ],
 
+
+```
+
+### Preparing the model
+Add th following trait to the User Model
+
+```php
+
+use App\User;
+use DesignByCode\QuickSocialite\Models\Traits\QuickSocial;
+
+
+class User extends Authenticatable
+{
+    use QuickSocial, Notifiable;
+
+}
 
 ```
 
@@ -98,6 +115,8 @@ TWITTER_CLIENT_SECRET=
 TWITTER_CALLBACK=
 
 ```
+
+
 
 ### Setting up OAuth App
 When setting up the app on the service you want to use you need to give a callback like follow.
