@@ -83,7 +83,7 @@ return [
 
 
         'linkedin' => [
-            'created' => DesignByCode\QuickSocialite\Events\Social\LinkedInAccountWasCreated::class
+            'created' => DesignByCode\QuickSocialite\Events\Social\LinkedinAccountWasCreated::class
         ],
 
 
