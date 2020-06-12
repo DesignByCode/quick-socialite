@@ -27,6 +27,6 @@ class TwitterLinkEmail
      */
     public function handle(TwitterAccountWasCreated $event)
     {
-        Mail::to($event->user)->send(new TwitterWelcoeEmail($event->user));
+        Mail::to($event->user)->send(new TwitterWelcomeEmail($event->user));
     }
 }
