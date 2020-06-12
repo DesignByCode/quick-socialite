@@ -3,6 +3,7 @@
 namespace DesignByCode\QuickSocialite\Listeners\Social;
 
 
+use DesignByCode\QuickSocialite\Events\Social\LinkedInAccountWasCreated;
 use DesignByCode\QuickSocialite\Events\Social\TwitterAccountWasCreated;
 use DesignByCode\QuickSocialite\Mail\Social\TwitterWelcomeEmail;
 use Illuminate\Support\Facades\Mail;
@@ -20,14 +21,12 @@ class LinkedInLinkEmail
 
     }
 
+
     /**
-     * Handle the event.
-     *
-     * @param  TwitterAccountWasCreated  $event
-     * @return void
+     * @param LinkedInAccountWasCreated $event
      */
-    public function handle(TwitterAccountWasCreated $event)
+    public function handle(LinkedInAccountWasCreated $event)
     {
-        Mail::to($event->user)->send(new TwitterWelcomeEmail($event->user));
+        Mail::to($event->user)->send(new LinkedInLinkEmail($event->user));
     }
 }

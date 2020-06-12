@@ -2,8 +2,6 @@
 
 namespace DesignByCode\QuickSocialite\Listeners\Social;
 
-
-
 use DesignByCode\QuickSocialite\Events\Social\TwitterAccountWasCreated;
 use DesignByCode\QuickSocialite\Mail\Social\TwitterWelcomeEmail;
 use Illuminate\Support\Facades\Mail;
@@ -29,6 +27,6 @@ class TwitterLinkEmail
      */
     public function handle(TwitterAccountWasCreated $event)
     {
-        Mail::to($event->user)->send(new TwitterWelcomeEmail($event->user));
+        Mail::to($event->user)->send(new TwitterWelcoeEmail($event->user));
     }
 }

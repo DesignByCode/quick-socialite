@@ -33,6 +33,6 @@ class TwitterWelcomeEmail extends Mailable implements ShouldQueue
      */
     public function build()
     {
-        return $this->markdown('quick-socialite::emails.social.google.welcome');
+        return $this->markdown('quick-socialite::emails.social.twitter.welcome');
     }
 }

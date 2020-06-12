@@ -33,6 +33,6 @@ class BitbucketWelcomeEmail extends Mailable implements ShouldQueue
      */
     public function build()
     {
-        return $this->markdown('quick-socialite::emails.social.facebook.welcome');
+        return $this->markdown('quick-socialite::emails.social.bitbucket.welcome');
     }
 }
