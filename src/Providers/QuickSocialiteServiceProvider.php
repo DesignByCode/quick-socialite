@@ -22,7 +22,7 @@ class QuickSocialiteServiceProvider extends ServiceProvider
 
         $router = $this->app->make(Router::class);
 
-        $router->aliasMiddleware('social', Social::class);
+        $router->aliasMiddleware(Social::class, 'social');
 
         $this->mergeConfigFrom(__DIR__ . '/../../config/services.php', 'services');
 
